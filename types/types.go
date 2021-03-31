@@ -5,12 +5,14 @@ type Money int64
 
 //Currency type string
 type Currency string
+
 //
 const (
 	TJS Currency = "TJS"
 	RUB Currency = "RUB"
 	USD Currency = "USD"
 )
+
 //PAN type string
 type PAN string
 
@@ -31,6 +33,7 @@ type Payment struct {
 	ID     int
 	Amount Money
 }
+
 //PaymentSource str and money
 type PaymentSource struct {
 	Type    string
